@@ -1,0 +1,6 @@
+@media screen and (min-width: 32.5em) {
+  main {
+  margin: 1.25rem auto;
+  max-width: 760px;
+}
+}
