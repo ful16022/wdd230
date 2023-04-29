@@ -32,7 +32,6 @@ section {
   font-family: "Crimson Pro", serif;
   border-width: thin;
   border-style: solid;
-  
   text-align: center;
 
 }
@@ -42,7 +41,16 @@ h2,h3,h4{
   background-color: lightblue;
   margin-block-start: 0;
   margin-block-end: .83em;
-
-
 }
 
+img{
+  max-width:  70%;
+  height: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+div {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

@@ -8,6 +8,7 @@
   }
   section {
     border-radius: 10px;
+
   }
 
   section:nth-child(3){
@@ -32,6 +33,10 @@
   h2,h3,h4{
     border-radius: 10px 10px 0 0 ;
   
+  }
+
+  img{
+    max-width:  90%;
   }
 
 }
