@@ -24,6 +24,7 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   font-size: .8rem;
+  grid-gap: 10px;
 
 }
 
@@ -31,7 +32,7 @@ section {
   font-family: "Crimson Pro", serif;
   border-width: thin;
   border-style: solid;
-  border-radius: 10px;
+  
   text-align: center;
 
 }
@@ -41,7 +42,7 @@ h2,h3,h4{
   background-color: lightblue;
   margin-block-start: 0;
   margin-block-end: .83em;
-  border-radius: 10px 10px 0 0 ;
+
 
 }
 
