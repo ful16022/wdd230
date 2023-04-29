@@ -1,7 +1,15 @@
 @media screen and (min-width: 32.5em) {
+  
+  main{
+    grid-template-columns: 1fr 1fr;
+  }
+
+  section:nth-child(3){
+    grid-column: span 2;
+  }
+  
   header,
-  nav,
-  main,
+  nav,main,
   footer {
     margin: 1.25rem auto;
     max-width: 760px;

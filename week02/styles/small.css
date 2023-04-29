@@ -1,0 +1,37 @@
+body {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+header,
+footer {
+  background-color: navy;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem;
+  font-family: "Crimson Pro", serif;
+}
+
+header {
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: .8rem;
+
+}
+
+section {
+  font-family: "Crimson Pro", serif;
+  border-width: thin;
+  border-style: solid;
+  border-radius: 10px;
+  text-align: center;
+}
+
