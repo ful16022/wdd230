@@ -1,6 +1,24 @@
 @media screen and (min-width: 32.5em) {
-  main {
-  margin: 1.25rem auto;
-  max-width: 760px;
+  header,
+  nav,
+  main,
+  footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+  }
+header,
+footer {
+  border-radius: 10px;
 }
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 27px;
+}
+
+
+
 }

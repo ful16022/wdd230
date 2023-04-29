@@ -3,13 +3,7 @@ body {
   line-height: 1.5;
 }
 
-header,
-nav,
-main,
-footer {
-  margin: 1.25rem auto;
-  max-width: 760px;
-}
+
 
 header,
 footer {
@@ -25,13 +19,19 @@ header {
 
 }
 
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 20px;
+}
+
 section{
   font-family: 'Source Serif Pro', serif;
 }
 
 img {
-  float: left;
-  
 
   margin: 10px;
   border-radius: 50%;
@@ -44,6 +44,8 @@ img {
   grid-template-columns: auto auto ;
 }
 .grid-item {
-  font-size: 30px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
 }
