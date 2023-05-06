@@ -18,6 +18,27 @@ footer {
 
 nav {
   background-color: #6C91BF;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+nav div{
+  flex: 1 1 auto;
+}
+
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+
+nav a:hover {
+	background-color: #FCECC9;
+	color: black;
 }
 
 header {
