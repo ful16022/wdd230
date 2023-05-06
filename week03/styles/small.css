@@ -38,6 +38,7 @@ nav a {
 
 nav a:hover {
 	background-color: #FCECC9;
+  font-size: 1em;
 	color: black;
 }
 
