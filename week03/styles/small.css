@@ -70,14 +70,21 @@ section {
   text-align: left;
   display: grid;
   grid-template-columns: auto auto;
-  padding-right: 0;
+  padding-right: .5em;
+
+ 
 
 }
 .bold{
   font-weight: bold;
   padding: 0;
   padding-right: .5em;
+  padding-left: .2em;
   font-size: 1.12em;
+  border: 1px solid black;
+}
+.texts{
+  border: 1px solid black;
 }
 
 li{
@@ -100,6 +107,6 @@ img {
 }
 
 div {
-  padding-left: 1rem;
+  padding-left: .5rem;
   padding-right: 1rem;
 }
