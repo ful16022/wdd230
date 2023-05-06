@@ -66,6 +66,10 @@ section {
   text-align: center;
 }
 
+div .left{
+  text-align: left;
+}
+
 h2,
 h3,
 h4 {
