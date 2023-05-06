@@ -1,9 +1,13 @@
+
+
+
+
 body {
   font-size: 18px;
   line-height: 1.5;
 }
 
-header,
+header, nav,
 footer {
   background-color: navy;
   color: #fff;
@@ -12,9 +16,12 @@ footer {
   font-family: "Crimson Pro", serif;
 }
 
+nav {
+  background-color: #6C91BF;
+}
+
 header {
   display: grid;
-  padding: 1rem;
   grid-template-columns: 1fr;
   text-align: center;
   align-items: center;
