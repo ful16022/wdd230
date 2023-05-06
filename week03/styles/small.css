@@ -72,10 +72,31 @@ section {
   display: grid;
   grid-template-columns: auto auto;
   padding-right: .5em;
-
- 
-
 }
+
+.colors{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-right: .5em;
+}
+
+#color1{
+  background-color: navy;
+  color: white;
+}
+#color2{
+  background-color: #6C91BF;
+  color: white;
+}
+#color3{
+  background-color: #FCECC9;
+  color: black;
+}
+#color4{
+  background-color: lightblue;
+  color: black;
+}
+
 .bold{
   font-weight: bold;
   padding: 0;
