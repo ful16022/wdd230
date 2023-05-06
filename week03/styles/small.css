@@ -66,10 +66,23 @@ section {
   text-align: center;
 }
 
-div .left{
+.left{
   text-align: left;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-right: 0;
+
+}
+.bold{
+  font-weight: bold;
+  padding: 0;
+  padding-right: .5em;
+  font-size: 1.12em;
 }
 
+li{
+  text-align: left;
+}
 h2,
 h3,
 h4 {
