@@ -7,4 +7,5 @@ document.querySelector("#currentyear").textContent = new Date().getFullYear();
 // sets the last modified date on the page
 document.querySelector("#lastmod").textContent = document.lastModified;
 
-
+// sets the current date 
+document.querySelector("#currentdate").textContent = document.lastModified;

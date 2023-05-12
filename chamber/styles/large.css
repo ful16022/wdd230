@@ -17,7 +17,9 @@
     grid-column: span 1;
   }*/
 
-  img {
-    max-width: 100%;
+  header div img{
+    width: 150px;
+ 
+
   }
 }

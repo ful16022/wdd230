@@ -52,7 +52,9 @@
     border-radius: 10px 10px 0 0;
   }
 
-  img {
-    max-width: 90%;
+  header div img{
+    width: 125px;
+ 
+
   }
 }
