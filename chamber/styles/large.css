@@ -1,87 +1,98 @@
-@media only screen and (min-width: 60em){
-/*** header only css ***/
-  header div img{
+@media only screen and (min-width: 60em) {
+  /*** header only css ***/
+  header div img {
     width: 150px;
-   }
-/*** end of header only ***/
-/**********************/
+  }
+  header div button {
+    display: none;
+  }
 
-/*** nav css only ***/
+  /*** end of header only ***/
+  /**********************/
+
+  /*** nav css only ***/
   nav div a {
-		font-size: 1.5rem;
-	}
+    font-size: 1.5rem;
+  }
+
+  nav ul#primaryNav {
+    display: flex;
+    justify-content: flex-start;
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+  }
 
   nav ul li a {
-    padding: .5rem 1rem;
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+  }
+
+  nav ul li a {
+    padding: 0.5rem 1rem;
   }
   .menu {
     grid-column: 2/3;
-    grid-row: 1/2;
-}
-/*** end of nav only ***/
-/**********************/
+        grid-row: 1/2;
+  }
+
+  /*** end of nav only ***/
+  /**********************/
 
   main {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-  h1 {
-    font-size: 2.5em;
   }
 
-
-
- 
+  h1 {
+    font-size: 1.5em;
+  }
 
   aside {
     grid-column: 4/5;
     grid-row: 1/4;
     display: flex;
     flex-direction: column;
-}
+  }
 
-.spotlight3 {
+  .spotlight3 {
     display: block;
-}
+  }
 
-
-aside div {
+  aside div {
     margin: 10px auto;
-}
+  }
 
-.hero {
+  .hero {
     grid-column: 2/4;
     grid-row: 1/3;
     width: 100%;
     height: 100%;
     padding: 10px;
-}
+  }
 
-.news {
+  .news {
     grid-column: 2/4;
     grid-row: 3/4;
     width: 100%;
     height: 100%;
-}
+  }
 
-.event {
+  .event {
     grid-column: 1/2;
     grid-row: 1/2;
     width: 100%;
     height: 100%;
-}
+  }
 
-.weater {
+  .weater {
     grid-column: 1/2;
     grid-row: 2/3;
     width: 100%;
     height: 100%;
-}
+  }
 
-.join {
+  .join {
     grid-column: 1/2;
     grid-row: 3/4;
     width: 100%;
     height: 100%;
-}
+  }
 }

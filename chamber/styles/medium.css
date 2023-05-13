@@ -46,12 +46,18 @@
   }
 /*** end of nav only ***/
 /**********************/
-
+header,
+nav,
+main,
+footer {
+	max-width: 960px;
+	margin: 0 auto;
+}
 
   main,
   footer {
     margin: 1.25rem auto;
-    max-width: 760px;
+
   }
 
   aside {
