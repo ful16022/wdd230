@@ -1,3 +1,9 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
 
 body {
   font-size: 18px;
@@ -16,12 +22,18 @@ footer {
 /*** header only css ***/
 header {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 5fr 1fr 1fr;
   text-align: center;
   align-items: center;
+  justify-content: center;
 }
 
-header div img{
+header div {
+  display: flex;
+  flex-flow: row;
+}
+
+header img{
   width: 100px;
 
   height: auto;
@@ -32,129 +44,146 @@ header div img{
 h1 {
   font-size: 1em;
 }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.current-date{
+  grid-column: span 4;
+  justify-content: right;
+
+}
+header div #currentdate {
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+}
+
 /*** end of header only ***/
 /**********************/
 
 /*** nav css only ***/
-nav {
-  background-color: #6C91BF;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
+nav button {
+  margin: .2rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #555;
+}
+.menu {
+  grid-column: span 4;
+}
+nav{
+  background-color: #eee;
 }
 
-nav div{
-  flex: 1 1 auto;
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
 }
 
-nav a {
-	display: block;
-	color: #fff;
-	text-align: center;
-	padding: 15px;
-	text-decoration: none;
-	font-size: 0.9rem;
+nav ul li a {
+  display: block;
+  padding: .8rem 2vw;
+  text-decoration: none;
+  color: #333;
+  border-top: 1px solid rgba(0,0,0,0.5);
 }
 
-nav a:hover {
-	background-color: #FCECC9;
-  font-size: 1em;
-	color: black;
+
+nav ul li.active a {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  width: 100%;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+  display: none;
+
+}
+
+nav ul.open {
+  display: block;
+}
+
+li {
+  margin-left: 40px;
+}
+
+/* show the hamburger button */
+#hamburgerBtn span:nth-child(1){
+  display: block;
+}
+
+/* hide the X button */
+#hamburgerBtn span:nth-child(2){
+  display: none;
+}
+
+/* hide the hamburger button */
+#hamburgerBtn.open span:nth-child(1){
+  display: none;
+}
+
+/* show the X button */
+#hamburgerBtn.open span:nth-child(2){
+  display: block;
 }
 /*** end of nav only ***/
 /**********************/
 
 main {
-  display: grid;
-  grid-template-columns: 1fr;
-  font-size: 0.8rem;
-  grid-gap: 10px;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.85rem;
+  padding: 0.5rem;
 }
 
-section {
-  font-family: "Crimson Pro", serif;
-  border-width: thin;
-  border-style: solid;
-  text-align: center;
+main div {
+  height: 150px;
+  background-color: #DEE5E5;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.join {
+  display: none;
 }
 
-.left{
-  text-align: left;
-  display: grid;
-  grid-template-columns: auto auto;
-  padding-right: .5em;
+.spotlight3 {
+  display: none;
 }
 
-.colors{
-  display: grid;
-  grid-template-columns: auto auto;
-  padding-right: .5em;
+main h1, h2, h3, h4, p, li {
+  padding: 10px;
 }
 
-#color1{
-  background-color: navy;
-  color: white;
-}
-#color2{
-  background-color: #6C91BF;
-  color: white;
-}
-#color3{
-  background-color: #FCECC9;
-  color: black;
-}
-#color4{
-  background-color: lightblue;
-  color: black;
-}
-
-.bold{
-  font-weight: bold;
-  padding: 0;
-  padding-right: .5em;
-  padding-left: .2em;
-  font-size: 1.12em;
-  border: 1px solid black;
-}
-.texts{
-  border: 1px solid black;
-}
-.fontsample{
-  border: 1px solid black;
-  font-size: 2em;
-  font-family: "Crimson Pro";
-  display: grid;
-  align-content: center;
-  justify-content: center;
-}
-.fonttexts{
-  display: grid;
-  align-content: center;
-  justify-content: center;
-  border: 1px solid black;
-}
-
-li{
-  text-align: left;
-}
-h2,
-h3,
-h4 {
-  font-size: 1.1em;
-  background-color: lightblue;
-  margin-block-start: 0;
-  margin-block-end: 0.83em;
-}
-
-/*
-img {
-  max-width: 70%;
-  height: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-*/
-div {
-  padding-left: .5rem;
-  padding-right: 1rem;
+aside {
+  background-color: #7E7F9A;
+  padding: 10px;
 }
