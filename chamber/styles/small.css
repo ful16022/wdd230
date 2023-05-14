@@ -46,7 +46,7 @@ header div img {
   width: 100px;
   height: auto;
   padding-left: 1rem;
-  padding-right: 1rem;
+
 }
 
 h1 {
@@ -189,6 +189,7 @@ li {
 /*** end of nav only ***/
 /**********************/
 
+/*** main css only ***/
 main {
   align-items: center;
   justify-content: center;
@@ -216,6 +217,10 @@ aside {
   background-color: #7e7f9a;
   padding: 10px;
 }
+ /*** end of main ***/
+ /**********************/
+
+/*** footer css only ***/
 footer {
   display: grid;
   grid-template-columns: 5fr 1fr 1fr;
@@ -224,25 +229,23 @@ footer {
   justify-content: center;
 }
 
-footer div {
-  display: flex;
-  flex-flow: row;
-}
+
 footer {
-	display: grid;
-  flex-flow: row;
+	display: flex;
+  flex-flow: column;
   align-items: center;
 	justify-content: center;
 	padding: 1rem;
   font-size: 15px;
-  margin-top: 1rem;
+  justify-content: space-evenly;
+  /*margin-top: 1rem;*/
 }
 
 footer div img {
   width: 100px;
   height: auto;
   padding-left: 1rem;
-  padding-right: 1rem;
+
 }
 
 footer p {
@@ -260,3 +263,5 @@ footer div .info {
   margin: 10px;
   padding: 10px;
 }
+/*** end of footer ***/
+ /**********************/
