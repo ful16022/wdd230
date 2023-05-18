@@ -151,8 +151,7 @@ nav ul li.active a {
 }
 
 nav ul li a:hover {
-  background-color: #3b5998;
-  color: white;
+  opacity: 0.7;
   font-size: 1rem;
   padding: 0.4rem 2vw;
   margin: 0;
