@@ -10,7 +10,7 @@
     margin: 1.5rem;
   }
   h1 {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
 
@@ -20,6 +20,7 @@
   /*** nav css only ***/
   nav div a {
     font-size: 1.5rem;
+
   }
 
   nav ul#primaryNav {
@@ -38,10 +39,10 @@
     padding: 0.5rem 1rem;
   }
   .menu {
-    display: inline;
+    display: block;
     grid-column: 2/3;
     grid-row: 1/2;
-  }
+   }
 
   /*** end of nav only ***/
   /**********************/

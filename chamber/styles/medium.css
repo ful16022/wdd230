@@ -15,7 +15,7 @@
   }
 
   h1 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   header section div span {
@@ -25,6 +25,15 @@
 
   header div img {
     width: 125px;
+  }
+
+  .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
   }
 
   /*** end of header only ***/
