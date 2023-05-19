@@ -34,6 +34,7 @@ header {
   text-align: center;
   align-items: center;
   justify-content: center;
+
 }
 
 header div {
@@ -77,6 +78,43 @@ h1, p {
   background: #007bb5;
   color: white;
 }
+
+div#banner {
+  display: none;
+  width: 100%;
+  top: 0;
+  padding: .2rem;
+}
+
+div#banner-content { 
+  width: 960px; 
+  margin: 0 auto; 
+  padding: 10px; 
+  text-align: center;
+  background-color: #DDEEEE; 
+}
+
+#bannerclose{
+  /* fill: #212225; */
+  /* background-color: #DDEEEE ; */
+  background: transparent;
+  cursor: pointer;
+
+}
+.btn {
+  background-color: #DDEEEE;
+  border: none;
+  color: black;
+  /* padding: 12px 16px; */
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
 
 .current-date {
   grid-column: span 4;
