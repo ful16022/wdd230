@@ -236,6 +236,7 @@ main {
   justify-content: center;
   font-size: 0.85rem;
   padding: 0.5rem;
+  font-family: "Crimson Pro", serif;
 }
 
 main div {
@@ -260,7 +261,7 @@ main div {
 
 .joinchamber {
   position: absolute;
-  font-size: 1rem;
+  font-size: 1.5rem;
   bottom: 8px;
   right: 0px;
   padding: 12px;
@@ -272,10 +273,57 @@ main div {
 
 .joinchamber:hover {
   background-color: rgb(173, 204, 230);
+  cursor: pointer;
 }
+
+.event, .news {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.weather {
+  text-align: center;
+}
+
+div h3 {
+  font-size: 2rem;
+}
+
+.temp {
+  font-size: 36px;
+}
+
+.weather span p {
+  font-size: 2rem;
+  text-align: right;
+}
+
+#windspeed p {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.joinus {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background-color: lightblue;
+  border: none;
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.joinus:hover {
+  background-color: rgb(173, 204, 230);
+  cursor: pointer;
+}
+
+
 
 .join {
   display: none;
+  padding: 10px;
+  font-size: 1rem;
 }
 
 .spotlight3 {
@@ -287,6 +335,8 @@ main div {
 aside {
   background-color: #7e7f9a;
   padding: 10px;
+  text-align: center;
+  font-size: 1rem;
 }
  /*** end of main ***/
  /**********************/
