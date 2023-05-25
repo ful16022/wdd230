@@ -19,10 +19,10 @@ document.querySelector("#currentdate").textContent = currentdate;
 // it is only displayed on Mondays and Tuesdays
 const bannerText =
   "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
-const banner = document.querySelector("#banner-content");
+const banner = document.querySelector("#banner-text");
 banner.textContent = bannerText;
 //document.querySelector("#banner").style.display = "none";
-if (date.getDay() === 1 || date.getDay() === 2) {
+if (date.getDay() === 3 || date.getDay() === 2) {
   document.querySelector("#banner").style.display = "flex";
 }
 

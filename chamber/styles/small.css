@@ -56,6 +56,9 @@ h1 {
 h1, p {
   margin: 0 2vw;
 }
+
+
+
 .fa {
   padding: 5px;
   font-size: 15px;
@@ -84,14 +87,31 @@ div#banner {
   width: 100%;
   top: 0;
   padding: .2rem;
+  align-items: center;
 }
 
-div#banner-content { 
-  width: 960px; 
-  margin: 0 auto; 
+div#banner-content {
+ display: flex;
+ margin: 0 auto;
+ align-items: center;
+ width: 960px;
+ background-color: #DDEEEE;
+}
+
+div#banner-text { 
+  display: flex;
+  flex-wrap: wrap;
+  /* align-content: center; */
+  width: 100%;
   padding: 10px; 
-  text-align: center;
+  /* text-align: center; */
+  justify-content: center;
   background-color: #DDEEEE; 
+}
+
+.fa-close {
+  align-items: center;
+  text-align: center;
 }
 
 #bannerclose{
@@ -99,6 +119,7 @@ div#banner-content {
   /* background-color: #DDEEEE ; */
   background: transparent;
   cursor: pointer;
+
 
 }
 .btn {
