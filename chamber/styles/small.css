@@ -313,6 +313,9 @@ div h3 {
 .temp {
   font-size: 36px;
 }
+.temp-lable {
+  font-size: 36px;
+}
 
 .weather span p {
   font-size: 2rem;
