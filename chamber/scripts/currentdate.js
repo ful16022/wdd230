@@ -22,7 +22,7 @@ const bannerText =
 const banner = document.querySelector("#banner-text");
 banner.textContent = bannerText;
 //document.querySelector("#banner").style.display = "none";
-if (date.getDay() === 3 || date.getDay() === 2) {
+if (date.getDay() === 1 || date.getDay() === 2) {
   document.querySelector("#banner").style.display = "flex";
 }
 
