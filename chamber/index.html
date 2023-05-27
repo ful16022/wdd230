@@ -29,7 +29,7 @@
     </div>
     <header>
       <div>
-        <img src="images/texas-star-white.png" alt="texas star" >
+        <img src="images/texas-star-white.webp" alt="texas star" >
         <h1>Friendswood Chamber of Commerce</h1>
       </div>
       <div class="social">
@@ -59,7 +59,12 @@
 
     <main>
       <div class="hero">
-        <img class="heroimg"  src="images/friendswood.jpg" alt="people in the park in Friendswood">
+        <picture class="heropic">
+          <source media="(min-width: 800px)" srcset="../week06/images/wdd230-org-large.webp">
+          <source media="(min-width: 600px)" srcset="../week06/images/wdd230-org-medium.webp">
+          <img class="heroimg"  src="../week06/images/wdd230-org-small.webp" alt="people in a office">
+          <!--<img class="heroimg"  src="images/friendswood.jpg" alt="people in the park in Friendswood">-->
+        </picture>
         <button class="joinchamber">Join the Chamber</button>
       </div>
       <div class="event"><b>Ribbon Cutting</b>
@@ -68,10 +73,11 @@
       </div>
       <div class="weather">
         <h3> Weather</h3>
-        <span class="temp">99</span><span class="temp-lable">°F</span>
+        <span class="temp">80</span><span class="temp-lable">°F</span>
         <span><p>Sunny</p></span>
         <hr>
-        <span id="windspeed"><p>Wind Speed:  2.5 km/h</p></span>
+        <p>Wind Speed: <span id="windspeed">8</span> mph </p>
+        <p>Wind Chill:  <span id="windchill">N/A</span></p>
         
       </div>
       <div class="news"><b> News Release</b>
@@ -105,7 +111,7 @@
 
     <footer>
       <div class="footer-logo">
-        <img src="images/texas-star-white.png" alt="texas star" >
+        <img src="images/texas-star-white.webp" alt="texas star" >
         <div class="footer-title">
         <h2>Friendswood Chamber of Commerce</h2>
         1100 S. Friendswood Dr
@@ -125,5 +131,7 @@
     </footer>
     <script src="scripts/currentdate.js"></script>
     <script src="scripts/menu.js"></script>
+    <script src="scripts/windchill.js"></script>
+
   </body>
 </html>
