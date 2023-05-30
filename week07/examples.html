@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.ico" type="image/png" />
+    <meta
+      name="description"
+      content="Drayton Fults BYUI WDD 230 Web Frontend"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>CSS Specificity</title>
+  </head>
+  <body>
+    <header>
+      <h1>CSS Specificity</h1>
+    </header>
+    <main>
+
+      <!-- element only red-->
+      <p>Hello World!</p>
+
+      <!-- element + class -->
+      <p class="test">Hello World!</p>
+
+      <!-- element + class + ID -->
+      <p id="demo" class="test">Hello World!</p>
+
+      <!-- inline style override CSS -->
+      <p id="demo" class="test" style="color: pink;">Hello World!</p>
+
+    </main>
+    
+    
+  </body>
+</html>

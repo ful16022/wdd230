@@ -4,7 +4,6 @@ body {
 }
 
 header,
-nav,
 main,
 footer {
   margin: 1.25rem auto;
@@ -23,12 +22,19 @@ header {
   padding: 1.5rem;
 }
 
-p img {
-  float: left;
-  
+/* Example style below  */
 
-  margin: 10px;
-  border-radius: 50%;
-  border: 1px solid #000;
-  width: 150px;
+/*  This is an element selector only value 1 */
+p {
+  color: red;
+}
+
+/* this adds a class selector value 10 */
+.test {
+  color: green;
+}
+
+/* This adds an ID selector value 100 */
+#demo {
+  color: blue;
 }
