@@ -96,7 +96,10 @@
   .hero {
     grid-column: 1/4;
     grid-row: 1/2;
+
   }
+
+
 
   .joinchamber {
     bottom: 25px;
@@ -122,13 +125,27 @@
 
   .event {
     grid-column: 1/3;
-    grid-row: 5/6;
   }
 
   .weater {
     grid-column: 3/4;
     grid-row: 5/6;
   }
+
+
+/*** discover css  ***/
+.mygallery {
+	display: grid;
+	grid-template-columns: 200px 200px;
+	justify-content: center;
+	grid-gap: 10px;
+	height: 80%;
+}
+.mygallery figcaption {
+	padding: 5px;
+	text-align: center;
+	border: thin silver solid;
+
 
   /*** end of main ***/
   /**********************/
