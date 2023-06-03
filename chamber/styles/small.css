@@ -387,12 +387,13 @@ aside {
   margin-bottom: auto;
 }
 
-.mygallery figcaption {
+.mygallery .caption {
   background-color: lightblue; 
   border: thin silver solid;
   padding: 5px;
   text-align: center;
   font-family: "Crimson Pro", serif;
+  display: flex;
  }
 
 .mygallery img {
