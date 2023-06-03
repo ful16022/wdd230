@@ -141,11 +141,12 @@
 	grid-gap: 10px;
 	height: 80%;
 }
+
 .mygallery figcaption {
 	padding: 5px;
 	text-align: center;
 	border: thin silver solid;
-
+}
 
   /*** end of main ***/
   /**********************/
