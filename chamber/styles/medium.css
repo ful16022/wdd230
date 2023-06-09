@@ -147,6 +147,12 @@
 	border: thin silver solid;
 }
 
+/*** start of join form ***/
+.joinform {
+  grid-template-columns: 1fr 1fr;
+}
+
+
   /*** end of main ***/
   /**********************/
 
