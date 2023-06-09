@@ -135,7 +135,6 @@
 
 /*** discover css  ***/
 .mygallery {
-	display: grid;
 	grid-template-columns: 200px 200px;
 	justify-content: center;
 	grid-gap: 10px;

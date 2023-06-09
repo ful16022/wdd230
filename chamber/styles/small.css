@@ -377,14 +377,10 @@ aside {
 /*** discover css  ***/
 
 .mygallery {
-  margin: 0 auto;
-  display: flex;
   grid-template-columns: 1fr;
   grid-auto-rows: 300px;
   justify-content: center;
-  grid-row-gap: 40px;
   padding: 10px;
-  margin-bottom: auto;
 }
 
 .mygallery .caption {
@@ -394,6 +390,7 @@ aside {
   text-align: center;
   font-family: "Crimson Pro", serif;
   display: flex;
+  margin-bottom: 15px;
  }
 
 .mygallery img {
