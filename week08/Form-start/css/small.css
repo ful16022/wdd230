@@ -100,6 +100,16 @@ form label.sbs {
     color: #555;
 }
 
+input[type=checkbox]{
+    width: 25px;
+	height: 25px;
+}
+
+input[type=radio] {
+    width: 30px;
+    height: 30px;
+}
+
 form input.submitBtn {
     border: none;
     background-color: #9c2c13;
