@@ -401,18 +401,18 @@ aside {
 
 
 /*** form join ***/
-div.form {
+div.form, div.benefits {
   padding: 10px;
 }
 
-form fieldset {
+form fieldset, .benefits fieldset {
   margin: 2rem 0;
   border: 1px solid #445ba9;
   border-radius: 10px;
   padding: .5rem 2%;
 }
 
-form legend {
+form legend, .benefits legend {
   color: #445ba9;
   margin: 0 1rem;
   padding: 0 .5rem;
@@ -422,7 +422,7 @@ form label.top {
   display: block;
   padding-top: 1rem;
   color: black;
-  font-size: .8rem;
+  font-size: 1rem;
 }
 
 form label.top input {
@@ -439,6 +439,7 @@ form label.top input {
 
 form label.sbs {
   display: block;
+  font-size: 1rem;
   padding: .75rem 0;
   color: #555;
 }
@@ -446,6 +447,7 @@ form label.sbs {
 input[type=radio] {
   width: 30px;
   height: 30px;
+  vertical-align: middle;
 }
 
 form input.submitBtn {
@@ -466,6 +468,10 @@ form label.top input:required {
 
 form label.top input:required:valid {
   border-left: green solid 6px;
+}
+
+.benefits {
+  font-size: 1rem;
 }
 
 /*** end of join form ***/
