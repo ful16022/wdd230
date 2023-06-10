@@ -31,3 +31,5 @@ const closeBtn = document.querySelector(".closebtn");
 closeBtn.addEventListener("click", function () {
   document.querySelector("#banner").style.display = "none";
 });
+
+

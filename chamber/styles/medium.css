@@ -152,6 +152,11 @@
   grid-template-columns: 1fr 1fr;
 }
 
+/*** thankyou ***/
+.thankyou{
+  font-size: 1em;
+  display: block;
+}
 
   /*** end of main ***/
   /**********************/
