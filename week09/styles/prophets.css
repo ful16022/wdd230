@@ -1,0 +1,23 @@
+/* The CSS code is setting the width of the body element to 800 pixels, centering it horizontally using
+auto margins, and setting the font size to 16 pixels. */
+body {
+  width: 800px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+/* The CSS code `h2 { color: blue; }` is setting the color of all `h2` elements to blue. */
+h2 {
+  color: blue;
+}
+
+/* This CSS code is defining a grid layout for elements with the class "cards". The
+"grid-template-columns" property is setting the width of each column in the grid. The
+"repeat(auto-fit, minmax(320px, 1fr))" value means that the columns will be automatically sized to
+fit the available space, with a minimum width of 320px and a maximum width of 1fr (which means the
+available space will be divided equally among the columns). This allows the grid to adjust to
+different screen sizes and device widths. */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
