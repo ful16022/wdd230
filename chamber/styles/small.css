@@ -488,6 +488,81 @@ main .thankyou h1 {
   display: block;
 }
 
+
+/*** directory page ***/
+
+section, .directorymenu {
+  background-color: lightblue;
+  text-align: center;
+
+}
+
+.directorymenu {
+  margin-top: 15px;
+}
+
+.directorymenu,
+section img,
+.socialMedia svg:nth-child(1) {
+  padding: 10px 0;
+}
+
+
+
+section {
+  padding: 15px;
+
+}
+
+.directorymenu button {
+  padding: 15px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+  background-color: #f0f0f0 ;
+}
+
+section img {
+  width: 200px;
+  }
+
+article {
+  margin: 15px 0;
+}
+
+section a {
+  word-wrap: break-word;
+  font-size: 15px;
+  color: #000;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  column-gap: 15px;
+  row-gap: 15px;
+}
+
+.grid section {
+  flex-direction: column;
+}
+
+.grid section > * {
+  margin: 2px;
+}
+
+.list section:nth-child(even) {
+  background-color: rgba(37, 150, 190, 0.5);
+}
+
+section h3 {
+  font-size: 24px;
+}
+
+
+/*** end of directory page ***/
+
  /*** end of main ***/
  /**********************/
 

@@ -1,0 +1,86 @@
+{
+  "directory": [
+      {
+          "name" : "Isla Ann Photography LLC",
+          "address": "1501 W. Parkwood Avenue Suite 105",
+          "phone": "832-879-0036",
+          "imageurl": "images/isla_ann_photography.jpg",
+          "website": "https://www.islaannphotography.com/",
+          "site": "www.islaannphotography.com",
+          "membership": "Gold"
+      },
+      {
+        "name" : "All Pro Complete Auto Service",
+        "address": "710 S. Friendswood Dr.",
+        "phone": "281-648-2277",
+        "imageurl": "images/allprocomplete.webp",
+        "website": "https://allprocompleteautoservice.com/",
+        "site": "allprocompleteautoservice.com",
+        "membership": "Silver"
+      },
+      {
+        "name" : "Elite Green Team Chem- Dry",
+        "address": "1612 Garden Lakes Dr.",
+        "phone": "346-217-9105",
+        "imageurl": "images/Elite-Green-Team-CD-logo.png",
+        "website": "https://www.elitegreenteamchemdry.com/",
+        "site": "www.elitegreenteamchemdry.com",
+        "membership": "Silver"
+      },
+      {
+        "name" : "The Airway Dentists",
+        "address": "501 Friendswood Dr. Stuite #105",
+        "phone": "281-816-3040",
+        "imageurl": "images/TheAirwayDentists-Logo-Horizontal.webp",
+        "website": "https://theairwaydentists.com/",
+        "site": "theairwaydentists.com",
+        "membership": "Silver"
+      },
+      {
+        "name" : "Blingle! of South Houston Bay Area",
+        "address": "1112 E Hwy 6",
+        "phone": "713-899-7198",
+        "imageurl": "images/blingle-header-logo.svg",
+        "website": "https://blingle.com/south-houston-bay-area-texas",
+        "site": "blingle.com",
+        "membership": "Silver"
+      },
+      {
+        "name" : "Irrigation System Solutions",
+        "address": "620 N. Coppell Rd., Ste. 101",
+        "phone": "214-773-8847",
+        "imageurl": "images/iffigationsystem.png",
+        "website": "http://www.isstx.com/",
+        "site": "www.isstx.com",
+        "membership": "Silver"
+      },
+      {
+        "name" : "Good Ranchers, LLC",
+        "address": "3800 E FM 528 Rd, Suite 112",
+        "phone": "832-244-7747",
+        "imageurl": "images/goodranchers.svg",
+        "website": "https://www.goodranchers.com/",
+        "site": "www.goodranchers.com",
+        "membership": "Silver"
+      },
+      {
+        "name" : "Braun's Roofing, Inc.",
+        "address": "3748 Dover",
+        "phone": "713-645-0505",
+        "imageurl": "images/brauns-roofing_logo.png",
+        "website": "https://www.braunsroofing.com/",
+        "site": "www.braunsroofing.com",
+        "membership": "Silver"
+      },
+      {
+          "name" : "Thomas Manor Senior Living",
+          "address": "2275 Thomas Trace",
+          "phone": "832-569-4641",
+          "imageurl": "images/ThomasManor_C.png",
+          "website": "https://thomasmanor.care/",
+          "site": "thomasmanor.care",
+          "membership": "Gold"
+      }
+
+  ]
+}
