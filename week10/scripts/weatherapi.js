@@ -3,7 +3,7 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
-const url = "http://api.openweathermap.org/data/2.5/weather?q=Friendswood&units=imperial&appid=39b872f8e87273fe71de9bf6dc5a8b5f"
+const url = "https://api.openweathermap.org/data/2.5/weather?q=Friendswood&units=imperial&appid=39b872f8e87273fe71de9bf6dc5a8b5f"
 
 
 async function apiFetch() {
