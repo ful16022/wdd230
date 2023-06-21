@@ -11,7 +11,7 @@ async function apiFetch() {
     const response = await fetch(url);
     if (response.ok) {
       const data = await response.json();
-      console.log(data); // this is for testing the call
+      //console.log(data); // this is for testing the call
       displayResults(data);
     } else {
         throw Error(await response.text());
@@ -33,7 +33,7 @@ function displayResults(weatherData) {
 
 function capitalize(s) {
   const words = s.split(" ");
-  console.log(words);
+  //console.log(words);
 
   // loop array to change the first letter in each array itme to cap
   for (let i = 0; i < words.length; i++){
