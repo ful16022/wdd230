@@ -316,6 +316,16 @@ picture.heropic img {
   text-align: center;
 }
 
+
+
+#current-temp {
+  font-size: 2rem;
+}
+.weather figcaption {
+  font-size: 1.5rem;
+  background-color: lightblue;
+}
+
 /* div h3 {
   font-size: 2rem;
 } */

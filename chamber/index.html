@@ -73,8 +73,11 @@
       </div>
       <div class="weather">
         <h3> Weather</h3>
-        <span class="temp">40</span><span class="temp-lable">°F</span>
-        <span><p>Sunny</p></span>
+        <span id="current-temp"></span>
+        <figure>
+          <img src="" alt="" id="weather-icon">
+          <figcaption></figcaption>
+        </figure>
         <hr>
         <p>Wind Speed: <span id="windspeed">8</span> mph </p>
         <p>Wind Chill:  <span id="windchill">N/A</span></p>
@@ -131,7 +134,7 @@
     </footer>
     <script src="scripts/currentdate.js"></script>
     <script src="scripts/menu.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/weatherapi.js"></script>
 
   </body>
 </html>
