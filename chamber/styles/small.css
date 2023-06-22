@@ -316,7 +316,11 @@ picture.heropic img {
   text-align: center;
 }
 
-
+p a {
+  margin: 0;
+  color: #000;
+  font-size: 13.6px;
+}
 
 #current-temp {
   font-size: 2rem;
