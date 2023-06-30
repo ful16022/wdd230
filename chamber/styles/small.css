@@ -391,6 +391,11 @@ aside {
   font-size: 1rem;
 }
 
+#member {
+  box-shadow: 1px -1px 10px 1px #000;
+  box-sizing: border-box;
+}
+
 
 /*** discover css  ***/
 
@@ -434,6 +439,7 @@ form legend, .benefits legend {
   color: #445ba9;
   margin: 0 1rem;
   padding: 0 .5rem;
+  font-size: 16px;
 }
 
 form label.top {
@@ -443,7 +449,7 @@ form label.top {
   font-size: 1rem;
 }
 
-form label.top input {
+form label.top input,form label.top textarea {
   display: block;
   font-size: 1rem;
   border: solid 1px #999;
@@ -478,6 +484,7 @@ form input.submitBtn {
   width: 96%;
   max-width: 20rem;
   cursor: pointer;
+  font-size: 16px;
 }
 
 form label.top input:required {
@@ -490,6 +497,10 @@ form label.top input:required:valid {
 
 .benefits {
   font-size: 1rem;
+}
+
+article p {
+  padding-bottom: 1.5em;
 }
 
 /*** end of join form ***/

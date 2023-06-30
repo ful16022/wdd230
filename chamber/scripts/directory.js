@@ -1,3 +1,4 @@
+// URL to the json data file
 const URL = "data.json";
 
 const gridbutton = document.querySelector("#grid");

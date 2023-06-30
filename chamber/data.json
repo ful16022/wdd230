@@ -7,7 +7,7 @@
           "imageurl": "images/isla_ann_photography.jpg",
           "website": "https://www.islaannphotography.com/",
           "site": "www.islaannphotography.com",
-          "membership": "Gold"
+          "membership": "Bronze"
       },
       {
         "name" : "All Pro Complete Auto Service",
@@ -16,7 +16,7 @@
         "imageurl": "images/allprocomplete.webp",
         "website": "https://allprocompleteautoservice.com/",
         "site": "allprocompleteautoservice.com",
-        "membership": "Silver"
+        "membership": "Gold"
       },
       {
         "name" : "Elite Green Team Chem- Dry",
@@ -43,7 +43,7 @@
         "imageurl": "images/blingle-header-logo.svg",
         "website": "https://blingle.com/south-houston-bay-area-texas",
         "site": "blingle.com",
-        "membership": "Silver"
+        "membership": "Gold"
       },
       {
         "name" : "Irrigation System Solutions",
@@ -79,7 +79,7 @@
           "imageurl": "images/ThomasManor_C.png",
           "website": "https://thomasmanor.care/",
           "site": "thomasmanor.care",
-          "membership": "Gold"
+          "membership": "Bronze"
       }
 
   ]
