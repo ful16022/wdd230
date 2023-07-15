@@ -2,8 +2,18 @@
 
 
 /*** menu ***/
-.mainNav button {
+.mainnav button {
   display: none;
+}
+
+nav ul#primarynav {
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+}
+
+#primarynav li{
+  width: 100%;
 }
 
 }

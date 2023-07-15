@@ -1,15 +1,117 @@
-body {
-  background-color: #6599FF;
-  font-size: 18px;
-  line-height: 1.5;
+:root{
+  --primary-color: #FF9900; 
+  --secondary-color: #6599FF; 
+  --accent1: black; 
+  --accent2: #FFDE00; 
+
+  --heading-font: "Crimson Pro", serif;
+
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+body{
+  margin: 0 auto;
+  background-color: var(--secondary-color);
+  font-size: 17px;
+}
+
+h1,
+h2,
+h3{
+  font-family: var(--heading-font);
+  letter-spacing: .2rem;
+  color: var(--accent1);
+  padding: 1rem;
+}
+
+p, 
+span,
+a,
+figcaption,
+footer
+{
+  font-family: var(--heading-font);
+  color: var(--accent1);
+  padding: 0 1rem;
+
 }
 
 /*** menu ***/
+
+header{
+  text-align: center;
+}
+main{
+  background-color: var(--secondary-color);
+}
+
+.button,
+nav,
+.drinks,
+.getContact,
+footer{
+  background-color: var(--primary-color);
+}
+
+.getContact{
+text-align: center;
+padding-bottom: .5rem;
+}
+
+.moreInfo{
+display: none;
+}
+
+.button{
+  padding: .8rem;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--secondary-color);
+}
+button,
+.submit 
+{
+border: none;
+outline: none;
+}
+.mainnav button {
+margin: 0.2rem 2vw;
+background-color: transparent;
+font-size: 2rem;
+}
+#primarynav{
+  margin: 0;
+}
+nav ul {
+text-align: center;
+list-style-type: none;
+padding: 0;
+display: none;
+}
+
+nav ul.open {
+display: block;
+}
+
+nav ul li a {
+display: block;
+padding: 0.8rem 2vw;
+text-decoration: none;
+color: var(--accent1);
+border: 1px solid var(--secondary-color);
+}
+
+nav ul li.active a {
+background-color: var(--secondary-color);
+color: var(--accent1);
+}
+
+nav ul li a:hover {
+background-color: var(--accent2);
+color: var(--secondary-color);
+}
+
 /* show the hamburger button */
 #hamburgerBtn span:nth-child(1) {
   display: block;
