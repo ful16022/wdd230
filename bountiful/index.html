@@ -32,12 +32,13 @@
               alt="Bountiful Foods logo"/>
           </a>
       </picture>
-      <div class="button">
 
-      <button id="hamburgerBtn">
-          <span><img src="images/list.png" alt="list icon"></span> <span><img src="images/close.png" alt="close icon"></span>
-      </button>  
+      <div class="button">
+        <button id="hamburgerBtn">
+            <span><img src="images/list.png" alt="list icon"></span> <span><img src="images/close.png" alt="close icon"></span>
+        </button>  
       </div>
+
       <nav>
           <ul id="primarynav">
               <li class="active"><a href="./">Home</a></li>
@@ -45,17 +46,93 @@
               <li><a href="aboutus.html">About Us</a></li>
           </ul>
       </nav>
-  </div>
+    </div>
+    </div>
   </header>
 
   <main class="index">
     <section class="home-hero">
       <div>
         <h1>Welcome to Bountiful Fruits!</h1>
-          <p>
-          Experience the natural sweetness of California's organic fruits with every sip</p>  
+           
       </div>
-  </section>
+    </section>
+
+    <section class="promo">
+        <h2>From Your Imagination to Your Glass - Custom Drinks Made Just for You</h2>
+        <p>With our innovative drink builder, you can select from a wide variety of fresh fruits and ingredients to craft a drink that perfectly matches your tastes. Whether you prefer sweet, tangy, or savory flavors, our drink builder lets you mix and match until you find the perfect combination. You can even add special instructions to make your drink truly unique. Try it today and discover a new favorite drink!</p>
+        <div class="action-button">
+            <a href="fresh.html">Create Your own Drink</a>
+        </div>  
+    </section>
+
+    <section class="info">
+        <div>
+            <h2>Enjoy Our Coastal Food Trucks</h2>
+            <p>Join Us for a Delicious Coastal Food Adventure! Our Food Trucks will be on the Road this Summer, Bringing Fresh and Healthy Organic Produce to a Location Near You. Don't Miss Out on the Fun! Whether you are a local resident or a tourist visiting the area, we are committed to providing you with the best possible experience.</p> 
+        </div>
+        <picture class="truck">
+            <img src="images/fruittruck500.webp" alt="fruit truck" loading="lazy">
+        </picture>
+    </section>
+
+    <section class="container">
+      <h2>Discover the Coastal Beauty of Southern California</h2>
+      <div class="card" id="card">
+          <div class="one">
+            <div>
+                <p>Santa Monica Pier: Situated in Los Angeles, the Santa Monica Pier is a famous landmark that has been showcased in various movies and TV shows. You can enjoy carnival games and rides, explore the aquarium, or take a leisurely stroll along the pier to take in the stunning ocean views. The beach is also a great spot for surfing and volleyball, and we highly recommend stopping by our fruit trucks to refuel with fresh and healthy snacks while enjoying your day in Santa Monica.</p>
+            </div>
+          </div>
+          <div class="two">
+            <div>
+                <p>Newport Beach: Located in Orange County, Newport Beach is a picturesque coastal town with a wide range of attractions, including beautiful beaches, trendy shops and restaurants, and a bustling marina. It's a great place to surf, paddleboard, or take a sunset cruise.</p>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="cardInfo">
+      <div class="mainweather">
+          <h2>Weather</h2>
+          <figure>
+              <div class="weather">
+                  <img id="weather-icon" src="" alt="">
+                  <h3>Current Tempeture: <span id="current-temp"></span><h3>
+              </div>
+          <figcaption></figcaption>
+          </figure>
+          <p>Humidity:<span id="humidity"></span></p>
+          <h3>three(3) day temperature forecast</h3>
+          <div id = "weatherContainer">
+            <div id="iconsContainer">    
+                <div class = "icons">
+                    <p class="weather" id="day1"></p>
+                    <div class="image"><img src="dots.png" class="imgClass" id="img1"></div>
+                    <p class="minValues" id="day1Min">Loading...</p>
+                    <p class="maxValues" id="day1Max">Loading...</p>
+                </div>
+                <div class = "icons">
+                    <p class="weather" id="day2"></p>
+                    <div class="image"><img src="dots.png" class="imgClass" id="img2"></div>
+                    <p class="minValues" id="day2Min">Loading...</p>
+                    <p class="maxValues" id="day2Max">Loading...</p>
+                </div>
+                <div class = "icons">
+                    <p class="weather" id="day3"></p>
+                    <div class="image"><img src="dots.png" class="imgClass" id="img3"></div>
+                    <p class="minValues" id="day3Min">Loading...</p>
+                    <p class="maxValues" id="day3Max">Loading...</p>
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="drinks">
+          <h2>Drinks</h2>
+          <p> Number of Special Drinks Ordered: <strong><span id="order-count"></span></strong></p>
+      </div>
+      
+    </section>
   </main>
 
   <footer>
@@ -75,5 +152,6 @@
   </footer>
   <script src="scripts/currentdate.js"></script>
   <script src="scripts/menu.js"></script>
+  <script src="scripts/weatherapi.js"></script>
 </body>
 </html>
