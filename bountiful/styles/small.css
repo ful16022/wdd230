@@ -298,6 +298,90 @@ iframe,
   margin-left: 5px;
 }
 
+
+/*** fresh page ***/
+input:required{
+  border: 2px solid var(--primary-color);
+}
+input:valid{
+  border:  2px solid var(--accent1);
+}
+.info ul{
+  list-style: none;
+  padding: 0;
+}
+
+form input,
+input[type="checkbox"]
+{
+  margin: 0.3rem 5px;
+}
+
+textarea{
+  width: 100%;
+}
+
+.userInfo{
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/back.png");
+  background-size:auto;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.userInfo input{
+  height: 2rem;
+}
+
+.fruits div {
+  display: flex;
+  align-items: center;
+}
+
+.submit{
+  background-color: #097054;
+  color: black;
+  padding: .5rem;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0.5rem auto;
+  display: block;
+}
+
+.submit:hover{
+  background-color: var(--primary-color);
+  transform: scale(1.1);
+  border: none;
+}
+
+#submit-message{
+  display: none;
+  background-color: #ff824dbf;
+  color: var(--secondary-color);
+  padding: .5rem;
+  border-radius: 5px;
+  width: 80%;
+  margin: auto;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+
+.fruitsInfo{
+  background-color: #FFDE00;
+  text-align: center;
+}
+.fruitsInfo ol, 
+.fruitsInfo h3{
+  padding: 0;
+  margin: 0;
+}
+.fruitsInfo ol li{
+  list-style-position: inside;
+}
+
+
 /*** footer ***/
 footer{
   text-align: center;
